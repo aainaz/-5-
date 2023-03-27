@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header_logo{
+    margin: 15px;
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.header a{
+  text-decoration: none;
+  font-size: 20px;
+margin: 0 20px;
+font-family: 'PT Sans Caption', sans-serif;
+color: darkblue;
+}
+.logo{
+    font-family: 'Russo One', sans-serif;
+}
+/* -------------- КАРТОЧКИ ТРЕНЕРА ----------------- */
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.card{
+    width: 20%;
+}
+.img_container{
+    max-height: 40vh;
+    overflow:hidden;
+}
+.card img{
+    width: 100%;
+
+}
+
+/* -------------- FORM ADD TRNER-------------------- */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+form{
+    width: 30%;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group>*{
+    margin: 5px;
+}
+
+.i-g-radio{
+    flex-direction: row;
+}
+.form1 {
+    margin: 0 auto;
+    width: 100%;
+
+}
+.flex-column-center {
+    flex-direction: row;
+   display: flex;
+   justify-content: space-evenly;
+    width: 100%;
+}
+.list-trainer{
+    margin-top: 40px;
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+}
+.form-edit {
+    width: 70%;
+}
+.form-edit form{
+	width: 50%;
+}
+
+.trener-item {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.trener-item>* {
+   margin: 40px;
+   font-size: 20px;
+
+}
+.trener-item:p {
+
+   display: block;
+ 
+}
+.p1 {
+    display: block;
+}
+.btn {
+    background: transparent;
+    padding: 5px;
+    
+}
+.btn-edit {
+    border: 1px solid #ff5e00;  
+    color: #ff5e00;
+}
+.btn-delete {
+    border: 1px solid #ff0000;  
+    color: #ff0000;
+}
+.regg{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'PT Sans Caption', sans-serif;
+}
